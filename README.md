@@ -27,6 +27,8 @@ A Python-based secure file encryption system with GUI, login/signup authenticati
 ---
 
 ## 📁 Project Structure
+
+
 tripleAes/
 │── main.py
 │── gui.py
@@ -45,13 +47,10 @@ tripleAes/
 ```bash
 git clone https://github.com/kunalchauhan6673/tripleAes.git
 cd tripleAes
-
 2. Install dependencies
 pip install pycryptodome pillow
-
 ▶️ Run the Application
 python main.py
-
 🔐 How It Works
 Files are encrypted using 3 layers of AES encryption
 Keys are derived using PBKDF2
@@ -63,3 +62,14 @@ Users can optionally use their account credentials as encryption key
 👨‍💻 Author
 
 Kunal Chauhan
+
+⭐ If you like this project, give it a star!
+
+---
+
+# 📤 Now push the fix
+
+```bash
+git add README.md
+git commit -m "Fixed README formatting"
+git push
